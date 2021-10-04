@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'mulish', sans-serif;
+    background-color: #0c0c0c;
+    color: #c9c9c9
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    color: #fcfcfc;
+}
+a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff35f;
+}
+li{
+    list-style: none;
+}
+.box{
+    border-radius: 30px;
+    background-color: #2f3132
+}
+
+/* menu */
+nav p{
+    text-transform: uppercase;
+    font-size: 150%;
+}
+.box_menu{
+    text-align: center;
+    background-color:  #2f3132;
+    border-radius: 0 0 10px 10px;
+    width: 100px;
+    height: 140px;
+    margin: 0 50px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.menu_items{
+    color: #fcfcfc;
+    position: absolute;
+    top: -60px;
+    left: 15px;
+    right: 15px;
+}
+
+/* menu social */
+header{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.menu_social{
+    padding-top: 50px;
+    position: absolute;
+    right: -45px;
+}
+.menu_social li{
+    border-radius: 50px;
+    background-color: #2f3132;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* logo */
+.logo{
+    padding-top: 50px;
+}
+.aligned_menu_logo img{
+    height: 80px;
+    width: auto;
+    margin: 50px 30px;
+}
+.aligned_menu_logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* home */
+.box_home{
+    background-color: #1f1f1f;
+    background-image: url(immagini/sfondo.png);
+    background-size: 60%;
+    margin: -50px 30px 30px 30px;
+}
+h3{
+    padding: 10px 0 20px 0;
+    font-size: 110%;
+}
+.yellow_text{
+    color: #fff35f;
+}
+.card{
+    padding: 30px;
+    margin: 30px;
+}
+.button_container{
+    text-align: center;
+}
+.button, button{
+    display: inline-block;
+    text-align: center;
+    background-color: #fff35f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 160px;
+}
+.button a{
+    color: #2f3132;
+}
+.button a:hover{
+    color: #c9c9c9;
+}
+.rectangular_box--5 .icon{
+    padding: 3px;
+}
+
+/* artigiani */
+h1{
+    text-align: right;
+    font-size: 250%;
+    padding: 10px 30px 0 30px;
+}
+h4{
+    padding: 20px 30px 0 30px;
+    font-size: 120%;
+}
+#best{
+    text-align: right;
+    color: #fff35f;
+}
+.rectangular_box{
+    background-image: -webkit-linear-gradient(left, #f7931e 0%, #fff35f 100%);
+    height: 180px;
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.headline{
+    padding: 20px;
+}
+.headline h2{
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+.headline_artisans p{
+    color: #fcfcfc;
+}
+.headline_artisans h2{
+    font-size: 190%;
+}
+.icon{
+    padding: 30px 10px 0 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.square_box{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.square_box img{
+    padding-top: 5px;
+}
+.square_box p, .title_news p{
+    margin: -20px;
+    color: #c9c9c9;
+}
+
+/* prodotti */
+ul{
+    text-align: center;
+}
+.category_box{
+    display: inline-block;
+}
+.category{
+    background-color: #2f3132;
+    height: 25px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 20px 2px;
+    display: flex;
+    align-items: center;
+    font-size: 80%;
+}
+.category h6{
+    padding: 5px;
+    z-index: 2;
+}
+.product_card{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    margin: 10px;
+}
+.product_img{
+    background-size: cover;
+    height: 80px;
+    text-align: right;
+    padding: 5px;
+}
+.product_img--1{
+    background-image: url(immagini/prodotto1.jpg);
+}
+.product_img--2{
+    background-image: url(immagini/prodotto2.jpg);
+}
+.product_img--3{
+    background-image: url(immagini/prodotto3.jpg);
+}
+.product_img--4{
+    background-image: url(immagini/prodotto4.jpg);
+}
+.product_img--5{
+    background-image: url(immagini/prodotto5.jpg);
+}
+.product_img--6{
+    background-image: url(immagini/prodotto6.jpg);
+}
+.product_title{
+    height: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.product_title h5{
+    font-size: 95%;
+}
+.product_title p{
+    font-size: 90%;
+}
+
+/* servizi */
+.service_text{
+    padding: 20px 30px 10px 30px;
+}
+.rectangular_box--1{
+    background-image: -webkit-linear-gradient(left, #f7931e 0%, #fff35f 100%);
+    color: #2f3132;
+}
+.rectangular_box--2, .rectangular_box--4{
+    background: #2f3132;
+}
+.rectangular_box--3{
+    background-image: -webkit-linear-gradient(left, #8fe4ea 0%, #9ddd73 100%);
+    color: #2f3132;
+}
+.rectangular_box--5{
+    background-image: -webkit-linear-gradient(left, #fff35f 0%, #9ddd73 100%);
+}
+
+/* news */
+.news_card{
+    height:150px ;
+    width:300px ;
+    overflow: hidden;
+    margin: 10px;
+}
+.img_news{
+    background-size: cover;
+    height: 90px;
+}
+.img_news--1{
+    background-image: url(immagini/news1.jpg);
+}
+.img_news--2{
+    background-image: url(immagini/news2.jpg);
+}
+.img_news--3{
+    background-image: url(immagini/news3.jpg);
+}
+.img_news--4{
+    background-image: url(immagini/news4.jpg);
+}
+.img_news--5{
+    background-image: url(immagini/news5.jpg);
+}
+.img_news--6{
+    background-image: url(immagini/news6.jpg);
+}
+.title_news{
+    text-align: center;
+}
+.title_news p{
+    margin: -23px;
+}
+#container_news{
+    margin-top: 50px;
+}
+.square_box a:hover, .product_card a:hover, .news_card a:hover{
+    color: #fcfcfc;
+}
+
+/* footer */
+footer{
+    font-size: 10px;
+    margin: 20px;
+}
+footer a{
+    color: #c9c9c9;
+}
+
+/* media query */
+@media (min-width:800px){
+    .div-main{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .menu_items{
+        top: 60px;
+        transition: all 1.3s linear;
+        z-index: 2;
+    }
+    .menu_items:hover{
+        top: -60px;
+    }
+    .category{
+        height: 30px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 100%;
+    }
+    .category img{
+        height: 20px;
+    }
+    .square_box, .product_card, .news_card{
+        transition: all 0.6s ease;
+    }
+    .square_box:hover, .product_card:hover, .news_card:hover{
+        transform: scale(1.05);
+    }
+    .form_container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer{
+        text-align: center;
+    }
+    .form_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .headline_artisan{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .map_box2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .map_box p{
+        text-align: left;
+        line-height: 50px;
+    }
+}
+
+/* form */
+form{
+    margin-bottom: 20px;
+}
+.form_headline{
+    text-align: left;
+    padding-top: 30px;
+}
+input, select, label, button{
+    display: block;
+    margin: 20px;
+}
+input, select{
+    background-color: #2f3132;
+    border-radius: 30px;
+    padding: 15px;
+    color: #c9c9c9;
+    width: 250px;
+}
+#tos input{
+    display: inline;
+    width: auto;
+}
+
+/* pagina artigiano */
+.artisan_box{
+    padding: 30px 0;
+    margin: 20px 30px 30px 30px;
+    background-image: url(immagini/sfondo.png);
+    background-size: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.artisan_photo{
+    background-image: url(immagini/mariateresa.jpg);
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+}
+.map_box{
+    text-align: center;
+    margin: 30px;
+}
+.map_box p{
+    padding: 10px 0;
+}
+iframe{
+    height: 300px;
+    width: 300px;
+}
+.product_img--7{
+    background-image: url(immagini/cannolo2.jpg);
+}
+.product_img--8{
+    background-image: url(immagini/cannolo3.jpg);
+}
+.product_img--9{
+    background-image: url(immagini/cannolo4.jpg);
+}
+
+/*prodotto singolo*/
+.shop_name{
+    text-align: right;
+}
+.product_photo{
+    background-image: url(immagini/prodotto1.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 150px;
+    width: 200px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.input_product{
+    background-color: #1f1f1f;
+    width: 80px;
+}
+.caption_box{
+    margin: 30px;
+    padding: 30px;
+}
+
+/* pagina in costruzione */
+.center_h1{
+    text-align: center;
+    padding: 50px;
+}
+.muratore{
+    text-align: center;
+}
+
